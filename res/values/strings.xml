@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ADKActivity!</string>
+    <string name="app_name">Achtung! Die Kurve</string>
+    <!-- <string name="app_name_launcher">ADK</string> // Unused -->
+    <string-array name="entryvalues_controller_list">
+        <item>Touch</item>
+        <item>Orientation</item>
+        <item>AI</item>
+    </string-array>
+    <string-array name="entries_controller_list">
+        <item>Touchscreen</item>
+        <item>Accelerometer</item>
+        <!-- <item>AI</item> -->
+    </string-array>
+    <string name="preferences_controller">Controller</string>
+    <string name="button_startgame">Start Game</string>
+    <string name="button_preferences">Preferences</string>
+    <string name="gametitle">Achtung! Die Kurve</string>
+    <string name="player1name">Fred</string>
+    <string name="player2name">Whitney</string>
+    <string name="player3name">Leprechaun</string>
+    <string name="player4name">Bluebell</string>
+    <string name="player5name">Gary</string>
+    <string name="player6name">Oak</string>
+    <string name="preferences_snakecount">Number of Snakes</string>
+
+    <string-array name="entries_snakecount_list">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="entries_numpowerups_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="entries_speed_list">
+        <item>Slow</item>
+        <item>Medium</item>
+        <item>Fast</item>
+    </string-array>
+    <string-array name="entryvalues_speed_list">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+    </string-array>
+
+    <string name="charlie">" owned everyone!"</string>
+    <string name="bill">Game over</string>
+    <string name="preferences_snakespeed">Speed</string>
+    <string name="description_controller">What controller you play with</string>
+    <string name="description_snakecount">The number of snakes in the playing field (including you)</string>
+    <string name="description_snakespeed">Speed of the snakes</string>
+    <string name="close">To menu</string>
+    <string name="exit_app">Exit the application</string>
+    <string name="preferences_powerups">Powerups</string>
+    <string name="description_powerups">Select the used powerups</string>
+    <string name="powerup_speedup">Speed up</string>
+    <string name="powerup_speedupothers">Speed up others</string>
+    <string name="powerup_speeddown">Speed down</string>
+    <string name="powerup_speeddownothers">Speed down others</string>
+    <string name="powerup_martyr">Martyr</string>
+    <string name="powerup_invincibility">Ghost mode</string>
+    <string name="powerup_thickline">Thicker line</string>
+    <string name="powerup_thicklineothers">Thicker line for others</string>
+    <string name="powerup_clearfield">Clear field</string>
+    <string name="powerup_switchheads">Switch heads</string>
+    <string name="powerup_invertcontrols">Invert controls</string>
+    <string name="powerup_invertcontrolsothers">Invert controls of others</string>
+    <string name="preferences_numpowerups">Number of powerups</string>
+    <string name="description_numpowerups">The maximum number of powerups in the field at any given time</string>
+    <string name="preferences">Preferences</string>
+    <string name="preferences_musicenabled">Enable music</string>
+    <string name="description_music">Whether background music is played while playing</string>
+    <string name="preferences_gapchance">Amount of gaps</string>
+    <string name="description_gapchance">The chance a gap occurs</string>
+    <string-array name="entries_gapchance">
+        <item >Rare</item>
+        <item >Few</item>
+        <item >Common</item>
+        <item >Many</item>
+    </string-array>
+    <string-array name="entryvalues_gapchance">
+        <item >5000</item>
+        <item >3000</item>
+        <item >1500</item>
+        <item >1000</item>
+    </string-array>
+    <string name="HQAI">High Quality AI</string>
+    <string name="HQAIsummary">Disable if the game is running slowly</string>
+    <string name="chuck">" won the game."</string>
+</resources>

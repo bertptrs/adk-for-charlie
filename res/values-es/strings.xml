@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hola a todos, ADKActivity!</string>
+
+    <string-array name="entries_controller_list">
+        <item>Pantalla táctil</item>
+        <item>Acelerómetro</item>
+        <!--  <item>IA</item> -->
+    </string-array>
+
+    <string name="preferences_controller">Controlador</string>
+    <string name="button_startgame">Inicio del juego</string>
+    <string name="button_preferences">Preferencias</string>
+    <string name="gametitle">Achtung! Die Kurve</string>
+    <string name="player1name">Paco</string> 
+    <string name="player2name">Juan</string>
+    <string name="player3name">Carlos</string>
+    <string name="player4name">Esteban</string>
+    <string name="player5name">Luis</string>
+    <string name="player6name">Isabel</string>
+    <string name="preferences_snakecount">Número de serpientes</string>
+
+    <string-array name="entries_speed_list">
+        <item>Lento</item>
+        <item>Medio</item>
+        <item>Rápido</item>
+    </string-array>
+
+    <string name="preferences_snakespeed">Velocidad</string>
+    <string name="charlie">" propiedad de todo el mundo!"</string>
+    <string name="bill">Juego sobre</string>
+    <string name="description_controller">Lo que se juega con el controlador</string>
+    <string name="description_snakecount">El número de serpientes en el campo de juego (incluido usted)</string>
+    <string name="description_snakespeed">La velocidad de las serpientes</string>
+    <string name="close">Ir al menú</string>
+    <string name="exit_app">Salga de la aplicación</string>
+    <string name="preferences_powerups">Potenciadores</string>
+    <string name="description_powerups">Seleccione los potenciadores utilizados</string>
+    <string name="powerup_speedup">Acelerar</string>
+    <string name="powerup_speedupothers">Acelerar los demás</string>
+    <string name="powerup_speeddown">Disminuir velocidad</string>
+    <string name="powerup_speeddownothers">Disminuir velocidad que otros</string>
+    <string name="powerup_martyr">El chivo expiatorio diablo</string>
+    <string name="powerup_invincibility">Espíritu el modo de</string>
+    <string name="powerup_thickline">Línea más gruesa</string>
+    <string name="powerup_thicklineothers">Línea más gruesa para los demás</string>
+    <string name="powerup_clearfield">Campo abierto</string>
+    <string name="powerup_switchheads">Cambiar la cabeza</string>
+    <string name="powerup_invertcontrols">Invertir controles</string>
+    <string name="powerup_invertcontrolsothers">Invertir los controles de los demás</string>
+    <string name="preferences_numpowerups">Número de potenciadores</string>
+    <string name="description_numpowerups">El número máximo de ciclos iniciales en el campo en un momento dado</string>
+    <string name="preferences">Preferencias</string>
+    <string name="preferences_musicenabled">Habilitar la música</string>
+    <string name="description_music">Si usted escucha música de fondo mientras se reproduce</string>
+    <string name="preferences_gapchance">Importe de las lagunas</string>
+    <string name="description_gapchance">La posibilidad de una separación se produce</string>
+    <string-array name="entries_gapchance">
+        <item >Raro</item>
+        <item >Pocos</item>
+        <item >Común</item>
+        <item >Muchos</item>
+    </string-array>
+    <string name="HQAI">Alta calidad de la IA</string>
+    <string name="HQAIsummary">Desactivar si el juego se ejecuta como si está dormido</string>
+    <string name="chuck">" ganó todos los juegos."</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/option_preferences" android:enabled="true" android:title="@string/preferences" android:visible="true" android:icon="@android:drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/option_quittohome" android:title="@string/close" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+    
+
+</menu>

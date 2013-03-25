@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/entries_controller_list" android:entryValues="@array/entryvalues_controller_list" android:dialogTitle="@string/preferences_controller" android:title="@string/preferences_controller" android:enabled="true" android:selectable="true" android:defaultValue="Touch" android:key="ControllerType" android:summary="@string/description_controller"/>
+    <ListPreference android:summary="@string/description_numpowerups" android:defaultValue="2" android:key="NumPowerups" android:entryValues="@array/entries_numpowerups_list" android:title="@string/preferences_numpowerups" android:entries="@array/entries_numpowerups_list" /><PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/preferences_powerups" android:summary="@string/description_powerups" android:key="Powerups">
+        <CheckBoxPreference android:title="@string/powerup_clearfield" android:key="CLEAR_FIELD" android:defaultValue="true" /><CheckBoxPreference android:title="@string/powerup_invincibility" android:key="INVINCIBILITY" android:defaultValue="true" /><CheckBoxPreference android:title="@string/powerup_invertcontrols" android:key="INVERT_CONTROLS" android:defaultValue="true" /><CheckBoxPreference android:title="@string/powerup_invertcontrolsothers" android:key="INVERT_CONTROLS_OTHERS" android:defaultValue="true" /><CheckBoxPreference android:title="@string/powerup_martyr" android:key="MARTYR" android:defaultValue="true" /><CheckBoxPreference android:title="@string/powerup_speeddown" android:key="SPEED_DOWN" android:defaultValue="true" /><CheckBoxPreference android:title="@string/powerup_speeddownothers" android:key="SPEED_DOWN_OTHERS" android:defaultValue="true" /><CheckBoxPreference android:title="@string/powerup_speedup" android:key="SPEED_UP" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/powerup_speedupothers" android:key="SPEED_UP_OTHERS" android:defaultValue="true" />
+        
+        
+        
+        
+        
+        <CheckBoxPreference android:title="@string/powerup_switchheads" android:key="SWITCH_HEADS" android:defaultValue="true" /><CheckBoxPreference android:title="@string/powerup_thickline" android:key="THICK_LINE" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/powerup_thicklineothers" android:key="THICK_LINE_OTHERS" android:defaultValue="true" />
+        
+        
+        
+    </PreferenceScreen><ListPreference android:entries="@array/entries_snakecount_list" android:entryValues="@array/entries_snakecount_list" android:title="@string/preferences_snakecount" android:key="SnakeCount" android:dialogTitle="@string/preferences_snakecount" android:defaultValue="3" android:summary="@string/description_snakecount"/>
+    <ListPreference android:key="SnakeSpeed" android:title="@string/preferences_snakespeed" android:summary="@string/description_snakespeed" android:entryValues="@array/entryvalues_speed_list" android:entries="@array/entries_speed_list" android:defaultValue="50"/>
+    <CheckBoxPreference android:defaultValue="false" android:title="@string/preferences_musicenabled" android:summary="@string/description_music" android:key="MusicEnabled"/>
+    <ListPreference android:title="@string/preferences_gapchance" android:defaultValue="1500" android:summary="@string/description_gapchance" android:key="GapChance" android:entries="@array/entries_gapchance" android:entryValues="@array/entryvalues_gapchance"/>
+    <CheckBoxPreference android:key="HQAI" android:title="@string/HQAI" android:summary="@string/HQAIsummary" android:defaultValue="true"/>
+    
+    
+    
+
+</PreferenceScreen>
